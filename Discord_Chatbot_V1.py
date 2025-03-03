@@ -51,7 +51,7 @@ async def on_ready():
         
         "im fresh to death fr", "dw ill be humble aha",
         "if i spend my whole bankroll ill affect the DOW", "sponsored by the shadow government",
-        "jesus turned water into wine, I turned the sprite into a pink oil", "the king is back", "did you miss me aha?",
+        "the king is back", "did you miss me aha?",
         
         ]
     
@@ -111,26 +111,17 @@ async def on_message(message):                      #Prevents the bot from sendi
 
 complimentIntro = [
     
-    "alright here we go I got one, you're a", "ok", "i been wanting to tell you youre a", "you're def a",
-    "yk you're a", "everyone been telling me to call you a", "rank like old milk, haha, someone had to tell you.. NAH, you a",
-    "today i think youre a", "i feel like youd appreciate if i told you youre a", "believe me, you are a",
-    "gonna have to say you are a", "feelin like you a", "never told anyone else but you, you're a", "diamond baby, you are a",
-    "smellin better today bro!! you are", "you are a not so stinky, not so slim,", "ranch the way you be dressin, you",
-    "you don't smell today dude!! you're a", "they gotta wipe you down for sure ahaha, you"
+    #ADD MORE INTROS HERE
     
     ]
 complimentAdj = [
     
-    "strong", "drippy", "dapper", "yoked", "cold",  "STINKY hahahah!! just playin...", "hot", "WRINKLY ahh!!! just PLAYIN dog, you know me!! you're a rich",
-    "idk... can't put my tongue on it, a stout", "based", "non-stinky", "COLD", "ICY", "alright alright, you're the", "craziest most epicest most bestest", 
-    "dopest", "flashiest", "human", "human", "far-out"
+    #Add more adjectives here
     
     ]
 complimentNoun = [
     
-    "freak", "beast", "freaker", "Chad", "rizzard", "bro", "homie", "plug", "G", "gangsta", "brozilla", "brofessional",
-    "Brofessional Gamer", "Brotisserie Chicken", "Brogician", "dude", "man", "dawg", "legend", "stud", "slayer", "rockstar",
-    "amigo", "alpha", "sweetheart", "sweet thang", "killa"
+    #Add more nouns here
     
     ]
 @bot.command()                                      
@@ -144,11 +135,7 @@ insultIntroList = [
     ]
 insultAdjList = [
 
-    "dimwitted", "lazy", "weak", "pathetic", "stupid", "scrawny", "stupid", "lumpy", "washed",
-    "tacky", "spineless", "annoying", "irritating", "moronic", "clunky", "cheap", "mindless", "useless", "sloppy", "huge",
-    "flaky", "faded", "smelly", "shallow", "old", "immature", "freaky", 
-    "fat", "clueless", "ungrateful", "racist", "stinky", "obese", "no muscle havin'", "crusty", "pastey", "sticky", "rotten",
-    "flimsy", "cracked-out", "freaky", "blind", "deaf", "round"
+    #Add more adjectives here
 
     ]
 insultNounList = [
